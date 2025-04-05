@@ -6,6 +6,13 @@ public class Usuario {
 			
 			SmartTv  smartTv=new SmartTv();
 			
+			
+			smartTv.diminuirVolume();
+			smartTv.diminuirVolume();
+			smartTv.diminuirVolume();
+			smartTv.diminuirVolume();
+			
+			
 			System.out.println("Tv ligada ? " + smartTv.ligada);
 			System.out.println("Canal Atual ? "+ smartTv.canal);
 			System.out.println("Volume Atual ? "+ smartTv.volume);
