@@ -31,23 +31,8 @@ public class Testeclass {
 		
 		
 		System.out.println("Atualização git ");
+	
 		
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
 	
 	}
 	
@@ -56,6 +41,15 @@ public class Testeclass {
 		return "Resultado do método: "+primeiroNome.concat(" ").concat(segundoNome+("  idade:  "))+idade+(" anos ");
 				
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	
 	
