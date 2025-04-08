@@ -23,21 +23,47 @@ public class SmartTv {
 			public void canal() 
 			{
 				
-				canal=++canal;
-				volume=25;
+				canal=1;
+				
 			}
 			
 			public void aumentarVolume() 
 			{
 				
 				volume++;
+				System.out.println("Aumentar o volume para: "+ volume);
 			}
 			
 			public void diminuirVolume() 
 			{
 				
 				volume--;
+				System.out.println("Diminuir o volume para: "+ volume);
 			}
+			
+			public void aumentarCanal() 
+			{
+				
+				canal++;
+				System.out.println("Canal alternado para:  "+ canal);
+			}
+			
+			public void diminuirCanal() 
+			{
+				
+				canal--;
+				System.out.println("Canal alternado para:  "+ canal);
+			}
+			
+			public void mudarCanal(int novoCanal) 
+			{
+				
+				canal=novoCanal;
+				System.out.println("Canal alternado para:  "+ canal);
+			}
+			
+			
+			
 			
 			
 			
