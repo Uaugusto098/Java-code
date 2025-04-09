@@ -1,4 +1,7 @@
 package Newpackage;
+import java.util.Locale;
+import java.util.Scanner;
+
 
 public class Testeclass {
 
