@@ -1,2 +1,4 @@
 # Ignorar arquivos temporários
 *.metadata
+*FirstJava
+*SistemaSmartTv
